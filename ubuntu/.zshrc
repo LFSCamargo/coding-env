@@ -1,4 +1,6 @@
-export ZSH="/home/lfscamargo/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
+
+export PATH="$HOME/.cargo/bin:$PATH"
 
 ZSH_THEME="robbyrussell"
 
@@ -12,3 +14,5 @@ export NVM_DIR="$HOME/.nvm"
 
 export ANDROID_HOME="$HOME/Android/Sdk"
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/"
+
+alias l="exa -la --git"
