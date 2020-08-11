@@ -4,7 +4,7 @@ echo "Installing development Environment"
 
 sudo snap install docker
 
-sudo apt-get install zsh nodejs npm openjdk-8-jre watchman
+sudo apt-get install zsh nodejs npm openjdk-8-jre watchman curl 
 
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
