@@ -4,7 +4,7 @@ echo "Installing development Environment"
 
 sudo snap install docker
 
-sudo apt-get install zsh nodejs npm openjdk-8-jre watchman curl cargo
+sudo apt-get install zsh nodejs npm openjdk-8-jre watchman curl cargo vim
 
 cargo install exa
 
