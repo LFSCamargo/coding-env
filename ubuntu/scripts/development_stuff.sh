@@ -4,17 +4,13 @@ echo "Installing development Environment"
 
 sudo snap install docker
 
-sudo apt-get install zsh nodejs npm openjdk-8-jre watchman curl 
+sudo apt-get install zsh nodejs npm openjdk-8-jre watchman curl cargo
+
+cargo install exa
 
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 sudo npm install -g eslint prettier react-native-cli typescript yarn
-
-cp ../.gitconfig ~/.gitconfig
-
-cp ../.zshrc ~/.zshrc 
-
-source ~/.zshrc
 
 nvm install --lts
 
