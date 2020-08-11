@@ -2,6 +2,8 @@ clear
 
 echo "Installing programns"
 
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt install albert 
 sudo apt install ../bin/hyper_3.0.2_amd64.deb
 sudo snap install discord
